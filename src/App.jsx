@@ -1,19 +1,14 @@
-import Card from "./Card/Card"
+import ColorPicker from "./ColorPicker";
 
 
 function App() {
- 
-  return(
-    <>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    </>
     
-  
-  )
-  
+return(
+    <>
+<ColorPicker/>
+    </>
+);
+
 }
 
 export default App
